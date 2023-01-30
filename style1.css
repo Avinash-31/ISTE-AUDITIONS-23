@@ -2173,7 +2173,7 @@ video {
 .dark .dark\:text-gray-400 {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
-    font-size:17px;
+    font-size: 17px;
 }
 
 .dark .dark\:text-slate-400 {
@@ -2984,11 +2984,13 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 40pt;
     text-align: center;
-     user-select: none;
+    user-select: none;
 }
-iframe{
+
+iframe {
     background-color: #111827;
 }
+
 .login-box {
     margin-top: 20rem;
     margin-left: 50%;
@@ -3002,11 +3004,11 @@ iframe{
     border-radius: 10px;
 }
 
-.gFormBox
-{
+.gFormBox {
     height: 20rem;
     width: 100%;
 }
+
 .login-box h2 {
     margin: 0 0 30px;
     padding: 0;
@@ -3183,7 +3185,7 @@ iframe{
         font-family: "Raleway", sans-serif;
         font-size: 20pt;
         text-align: center;
-         user-select: none;
+        user-select: none;
     }
 
     #filters {
@@ -3778,11 +3780,11 @@ iframe{
     }
 }
 
-.logo{
+.logo {
     height: 50px;
     width: auto;
     border-radius: 100px;
-    margin-top: 9px;
+    margin-top: 5px;
 }
 
 .submitBtn {
@@ -4038,8 +4040,9 @@ body ul.character-collection {
     display: flex;
     gap: 0.8rem;
     list-style: none;
-  }
-  body ul.character-collection li {
+}
+
+body ul.character-collection li {
     width: 12vw;
     height: 100%;
     position: relative;
@@ -4050,33 +4053,41 @@ body ul.character-collection {
     box-shadow: 2vw 2vw 4vw black;
     pointer-events: none;
     text-align: center;
-  }
-  body ul.character-collection li.fahkumram {
+}
+
+body ul.character-collection li.fahkumram {
     background-image: url(https://fadelun.github.io/hosted-assets/tekken-property/fahkumram.png);
-  }
-  body ul.character-collection li.kunimitsu {
+}
+
+body ul.character-collection li.kunimitsu {
     background-image: url(https://fadelun.github.io/hosted-assets/tekken-property/kunimitsu.png);
-  }
-  body ul.character-collection li.leroy {
+}
+
+body ul.character-collection li.leroy {
     background-image: url(https://fadelun.github.io/hosted-assets/tekken-property/leroy.png);
-  }
-  body ul.character-collection li.lidia {
+}
+
+body ul.character-collection li.lidia {
     background-image: url(https://fadelun.github.io/hosted-assets/tekken-property/lidia.png);
-  }
-  body ul.character-collection li.zafina {
+}
+
+body ul.character-collection li.zafina {
     background-image: url(https://fadelun.github.io/hosted-assets/tekken-property/zafina.png);
-  }
-  body ul.character-collection li:hover {
+}
+
+body ul.character-collection li:hover {
     background-color: #0000a3;
     background-image: none;
     height: 110%;
     transition: height 0.3s;
-  }
-  body ul.character-collection li img {
+}
+
+body ul.character-collection li img {
     width: 0;
     opacity: 0;
-  }
-  body ul.character-collection li p {
+}
+
+body ul.character-collection li p {
     opacity: 0;
     color: #dbdbdb;
     font-weight: bold;
@@ -4084,19 +4095,22 @@ body ul.character-collection {
     text-transform: capitalize;
     text-shadow: 0px 2px 8px black;
     z-index: 20;
-  }
-  body ul.character-collection li .hover-person {
+}
+
+body ul.character-collection li .hover-person {
     width: 100%;
     height: 100%;
     filter: grayscale(200%) opacity(60%);
     position: absolute;
     background: #3b3b3b;
     pointer-events: auto;
-  }
-  body ul.character-collection li .hover-person:hover {
+}
+
+body ul.character-collection li .hover-person:hover {
     filter: grayscale(0) opacity(0);
-  }
-  body ul.character-collection li .hover-person:hover ~ img {
+}
+
+body ul.character-collection li .hover-person:hover~img {
     opacity: 1;
     display: block;
     position: absolute;
@@ -4105,8 +4119,9 @@ body ul.character-collection {
     left: -200%;
     width: 80vw;
     transition: opacity 0.2s;
-  }
-  body ul.character-collection li .hover-person:hover ~ p {
+}
+
+body ul.character-collection li .hover-person:hover~p {
     opacity: 1;
     display: inline;
     position: absolute;
@@ -4114,32 +4129,285 @@ body ul.character-collection {
     right: -10px;
     bottom: 10px;
     transition: opacity 0.4s;
-  }
-  @media screen and (min-width: 768px) {
-    body ul.character-collection {
-      max-width: 60vw;
-      min-height: 50vh;
-    }
-    body ul.character-collection li {
-      width: 9vw;
-    }
-    body ul.character-collection li .hover-person:hover ~ img {
-      top: -30%;
-      left: -240%;
-      width: 60vw;
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    body ul.character-collection {
-      min-height: 70vh;
-    }
-    body ul.character-collection li {
-      width: 8vw;
-    }
-    body ul.character-collection li .hover-person:hover ~ img {
-      top: -20%;
-      left: -240%;
-      width: 42vw;
-    }
-  }
+}
 
+@media screen and (min-width: 768px) {
+    body ul.character-collection {
+        max-width: 60vw;
+        min-height: 50vh;
+    }
+
+    body ul.character-collection li {
+        width: 9vw;
+    }
+
+    body ul.character-collection li .hover-person:hover~img {
+        top: -30%;
+        left: -240%;
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body ul.character-collection {
+        min-height: 70vh;
+    }
+
+    body ul.character-collection li {
+        width: 8vw;
+    }
+
+    body ul.character-collection li .hover-person:hover~img {
+        top: -20%;
+        left: -240%;
+        width: 42vw;
+    }
+}
+
+/* Cards */
+
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
+:root {
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    --font-sans: "Rubik", sans-serif;
+    --font-serif: "Cardo", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.page-content {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
+}
+
+@media (min-width: 600px) {
+    .page-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .page-content {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+
+    background-color: black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.icon {
+    font-size: 40px;
+    color: #15032a;
+}
+
+@media (min-width: 600px) {
+    .card {
+        height: 350px;
+    }
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    background-position: 0 0;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translateY(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.cardsBox {
+    background-color: #010306f0;
+    width: auto;
+}
+
+.card {
+    background-size: cover;
+    width: 100%;
+}
+
+.card:nth-child(1):before {
+    background-image: url(webDeveloper.jpg);
+    background-size: 100% 100%;
+}
+
+.card:nth-child(2):before {
+    background-image: url(eventManager.jpg);
+    background-size: 100% 100%;
+}
+
+.card:nth-child(3):before {
+    background-size: 100% 100%;
+    background-image: url(graphicDesign.jpg);
+}
+
+.card:nth-child(4):before {
+    background-size: 100% 100%;
+    background-image: url(contentWriter.jpg);
+}
+
+.card:nth-child(5):before {
+    background-size: 100% 100%;
+    background-image: url(videoEditor.jpg);
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    transition: transform var(--d) var(--e);
+    z-index: 1;
+
+}
+
+.content>*+* {
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    /* background-color: rgb(1 2 4 / 20%); */
+    color: black;
+    text-shadow: 
+     1px  1px     #fff, 
+    -1px  1px     #fff, 
+     1px -1px     #fff, 
+    -1px -1px     #fff,
+     1px  1px 5px #555;
+    /* color:black; */
+    /* background: -webkit-linear-gradient(black, black); */
+}
+
+.copy {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 1.35;
+    color: whitesmoke;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    letter-spacing: 0.025rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0d0d0d;
+}
+
+.btn:focus {
+    outline: 1px dashed yellow;
+    outline-offset: 3px;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+    .card:after {
+        transform: translateY(0);
+    }
+
+    .content {
+        transform: translateY(calc(100% - 4.5rem));
+    }
+
+    .content>*:not(.title) {
+        opacity: 0;
+        transform: translateY(1rem);
+        transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+
+    }
+
+    .card:hover,
+    .card:focus-within {
+        align-items: center;
+    }
+
+    .card:hover:before,
+    .card:focus-within:before {
+        transform: translateY(-4%);
+    }
+
+    .card:hover:after,
+    .card:focus-within:after {
+        transform: translateY(-50%);
+    }
+
+    .card:hover .content,
+    .card:focus-within .content {
+        transform: translateY(0);
+    }
+
+    .card:hover .content>*:not(.title),
+    .card:focus-within .content>*:not(.title) {
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: calc(var(--d) / 8);
+    }
+
+    .card:focus-within:before,
+    .card:focus-within:after,
+    .card:focus-within .content,
+    .card:focus-within .content>*:not(.title) {
+        transition-duration: 0s;
+    }
+}
