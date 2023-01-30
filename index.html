@@ -80,13 +80,13 @@
                             href="https://docs.google.com/forms/d/e/1FAIpQLSdcYUWKRE-KOMHsbprivlohcyPdTsOmxUqWMy0DPw7oGcbxJQ/viewform"
                             target="_blank">Apply Now
                         </a> -->
-                        <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                            href="https://www.istenitdgp.com/team" target="_blank">Our Team
+                        <a class="text-gray-900 dark:text-white font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out "
+                            href="https://www.istenitdgp.com/team" id="navWord" target="_blank">Our Team
                         </a>
                     </li>
                     <li>
-                        <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                            href="https://www.istenitdgp.com/events" target="_blank">Our Events
+                        <a class="text-gray-900 dark:text-white font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                            href="https://www.istenitdgp.com/events" id="navWord" target="_blank">Our Events
                         </a>
 
                     </li>
@@ -97,7 +97,7 @@
 
                         <button type="button"
                             class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                            aria-label="Toggle between Dark and Light mode" data-aw-toggle-color-scheme>
+                            aria-label="Toggle between Dark and Light mode" data-aw-toggle-color-scheme onclick="changeColor()">
                             <svg viewBox="0 0 24 24" class="w-6 h-6" astro-icon="tabler:sun">
                                 <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2" class="icon-tabler">
@@ -326,8 +326,7 @@
 
         <!-- 
             Teams jisme ham log auditions le rahe hai
-            woh yaha pe daaldo
-            
+            woh yaha pe daaldo         
          -->
         <section class="relative">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 ">
@@ -706,6 +705,7 @@
         }
 
         animate();
+
     </script>
 
 
